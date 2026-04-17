@@ -96,10 +96,15 @@ context.clearRect(0, 0, canvas.width, canvas.height);
     context.lineWidth = 5; //makes line thinner
     context.beginPath();
     context.moveTo(120, 139.3);
-    context.lineTo(120,285);
-    context.lineTo(240,285);
-    context.lineTo(240,139.3);
+    context.lineTo(120,285); //these three draw the lines for the U
+    context.lineTo(240,285); //these three draw the lines for the U
+    context.lineTo(240,139.3); //these three draw the lines for the U
     context.stroke();
+
+// draws a new T on top of the old one
+    context.strokeStyle = "ffaf73"; //light orange
+    context.lineWidth = 5; //makes line thinner
+    
     </script>
 		
 	</p>
