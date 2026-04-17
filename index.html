@@ -121,11 +121,48 @@ context.clearRect(0, 0, canvas.width, canvas.height);
     context.fillRect(65,130,250,75);
     */
 
-    context.strokeStyle = "brown"
+    context.strokeStyle = "brown" //monkey head
     context.lineWidth = 5
     context.fillStyle = "brown"
     context.beginPath();
-    context.arc(180,225,50,0,2*Math.PI);
+    context.arc(180,227.5,50,0,2*Math.PI);
+    context.fill();
+    context.stroke();
+
+    context.strokeStyle = "red" //monkey face
+    context.lineWidth = 5
+    context.fillStyle = "red"
+    context.beginPath();
+    context.arc(165,225,17.5,0,2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.strokeStyle = "red" //monkey face
+    context.lineWidth = 5
+    context.fillStyle = "red"
+    context.beginPath();
+    context.arc(195,225,17.5,0,2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.strokeStyle = "red"; //monkeyface
+    context.lineWidth = 5; 
+    context.fillStyle = "red"; 
+    context.beginPath();
+    context.ellipse(180, 247.5, 30, 20, 0, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    
+    context.strokeStyle = "black" //monkey eye
+    context.lineWidth = 5
+    context.fillStyle = "black"
+    context.beginPath();
+    context.arc(165,225,5,0,2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.strokeStyle = "black" //monkey eye
+    context.lineWidth = 5
+    context.fillStyle = "black"
+    context.beginPath();
+    context.arc(195,225,5,0,2*Math.PI);
     context.fill();
     context.stroke();
     </script>
