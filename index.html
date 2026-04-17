@@ -155,15 +155,31 @@ context.clearRect(0, 0, canvas.width, canvas.height);
     context.lineWidth = 5
     context.fillStyle = "black"
     context.beginPath();
-    context.arc(165,225,5,0,2*Math.PI);
+    context.arc(165,225,3,0,2*Math.PI);
     context.fill();
     context.stroke();
     context.strokeStyle = "black" //monkey eye
     context.lineWidth = 5
     context.fillStyle = "black"
     context.beginPath();
-    context.arc(195,225,5,0,2*Math.PI);
+    context.arc(195,225,3,0,2*Math.PI);
     context.fill();
+    context.stroke();
+
+    context.strokeStyle = "black" //monkey mouth
+    context.lineWidth = 5 //makes the straight line
+    context.beginPath();
+    context.arc(180,235,3,0,1*Math.PI);
+    context.stroke();
+    context.strokeStyle = "021004"; //black
+    context.lineWidth = 3; //makes line thinner
+    context.moveTo(180,235); 
+    context.lineTo(180,255);
+    context.stroke(); //makes the U mouth
+    context.strokeStyle = "black" //monkey mouth
+    context.lineWidth = 3
+    context.beginPath();
+    context.arc(180,245,10,0,1*Math.PI);
     context.stroke();
     </script>
 		
