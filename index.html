@@ -111,13 +111,23 @@ context.clearRect(0, 0, canvas.width, canvas.height);
     context.lineTo(180,345);
     context.stroke(); //draws the bottom of the T
     */
-
+    
+    /*
     context.lineWidth = 15
     context.strokeStyle = "0029e2"; //makes the rectangle blue
     context.strokeRect(50,100,30,60);// creates a rectangle border
 
     context.fillStyle = "red"
     context.fillRect(65,130,250,75);
+    */
+
+    context.strokeStyle = "brown"
+    context.lineWidth = 5
+    context.fillStyle = "brown"
+    context.beginPath();
+    context.arc(180,225,50,0,2*Math.PI);
+    context.fill();
+    context.stroke();
     </script>
 		
 	</p>
