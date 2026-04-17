@@ -2,12 +2,9 @@
 <html> 
 <!-- The following code has been developed by students and/or researchers.  This code is shared for demonstration purposes and should not be considered a product -- it is for entertainment purposes only.  Any user of this code does so at their own risk. Members of the DIY Stream, FRI, HRI, and The University of Texas system are not liable for anything related to this code.
  
-THIS CODE SHOULD NOT BE USED TO DIAGNOSE ANY KIND OF MEDICAL CONDITION.
- 
  
 Authors in chronological order of contribution:
-Author 1
-Author 2
+Justin Lin
  
 Further Information:
 https://fri.cns.utexas.edu/community-outreach/high-school-research-initiative
@@ -17,7 +14,7 @@ Timothy Riedel
 triedel@utexas.edu
  
 Brief Description of Goal of Code:
-blah, blah, blah,
+To learn how to add different shapes to a canvas
  
 Known Issues:
 blah, blah, blah, blah
@@ -93,6 +90,14 @@ context.clearRect(0, 0, canvas.width, canvas.height);
   context.moveTo(cx, cy - scale / 4.2);
   context.lineTo(cx, cy + scale / 1);
   context.stroke();
+
+  // draws a new U on top of the old one
+    context.strokeStyle = "#ffaf73"; //light orange
+    context.lineWidth = 5; //makes line thinner
+    context.beginPath();
+    context.moveTo(120, 139.3);
+    context.lineTo(120,285);
+    context.stroke();
     </script>
 		
 	</p>
